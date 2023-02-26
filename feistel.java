@@ -144,7 +144,7 @@ public class feistel {
 		
 		auxiliar = left;
 		
-		System.out.print("1 - Função F em LEFT -> "+left);
+		System.out.print("1 - Função F com chave 1 em LEFT -> "+left);
 		left = or(left, key1);
 		System.out.println(" OR "+key1+": "+left);
 		
